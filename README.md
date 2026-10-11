@@ -19,7 +19,7 @@ SVD decomposes a matrix into three matrices, allowing image data to be approxima
 Singular Value Decomposition represents a matrix \(A\) as:
 
 \[
-A_k = U_k\Sigma_k V_k^T
+A_k = U_k Σ_k V_kᵀ
 \]
 
 Where:
