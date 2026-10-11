@@ -19,7 +19,7 @@ SVD decomposes a matrix into three matrices, allowing image data to be approxima
 Singular Value Decomposition represents a matrix \(A\) as:
 
 \[
-A_k = U_k Σ_k V_kᵀ
+$A_{k}$ = $U_{k}$ $Σ_{k}$ $V_{k}$ᵀ
 \]
 
 Where:
@@ -29,7 +29,7 @@ Where:
 - **Σ (Sigma):** Diagonal matrix containing singular values in descending order.
 - **Vᵀ:** Transpose of the matrix of right singular vectors.
 
-The matrices \(U\) and \(V\) are orthogonal, while the singular values in \(\Sigma\) determine the scaling along corresponding directions.
+The matrices \(U\) and \(V\) are orthogonal, while the singular values in \(Σ) determine the scaling along corresponding directions.
 
 ## Project Modules
 
@@ -37,7 +37,7 @@ The matrices \(U\) and \(V\) are orthogonal, while the singular values in \(\Sig
 
 - Defines a sample matrix.
 - Computes its SVD using NumPy.
-- Displays the matrices \(U\), \(\Sigma\), and \(V^T\).
+- Displays the matrices \(U\), \(Σ), and \(Vᵀ).
 - Reconstructs the original matrix.
 - Verifies the reconstruction and orthogonality properties.
 
@@ -58,7 +58,7 @@ The matrices \(U\) and \(V\) are orthogonal, while the singular values in \(\Sig
 Truncated SVD approximates an image matrix as:
 
 \[
-A_k = U_k\Sigma_kV_k^T
+$A_{k}$ = $U_{k}$ $Σ_{k}$ $V_{k}$ᵀ
 \]
 
 Keeping fewer singular values generally reduces the amount of information stored in the approximation, but may also reduce image quality.
